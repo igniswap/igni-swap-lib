@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122030004cba3d2c3d13ee04f2ab4bf00335d59fdb18fdcf27200f1722f360f3b0b864736f6c634300060a0033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 ADDRESS STOP 0x4C 0xBA RETURNDATASIZE 0x2C RETURNDATASIZE SGT 0xEE DIV CALLCODE 0xAB 0x4B CREATE SUB CALLDATALOAD 0xD5 SWAP16 0xDB XOR REVERT 0xCF 0x27 KECCAK256 0xF OR 0x22 RETURN PUSH1 0xF3 0xB0 0xB8 PUSH5 0x736F6C6343 STOP MOD EXP STOP CALLER ",
+      "sourceMap": "625:3404:17:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122030004cba3d2c3d13ee04f2ab4bf00335d59fdb18fdcf27200f1722f360f3b0b864736f6c634300060a0033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 ADDRESS STOP 0x4C 0xBA RETURNDATASIZE 0x2C RETURNDATASIZE SGT 0xEE DIV CALLCODE 0xAB 0x4B CREATE SUB CALLDATALOAD 0xD5 SWAP16 0xDB XOR REVERT 0xCF 0x27 KECCAK256 0xF OR 0x22 RETURN PUSH1 0xF3 0xB0 0xB8 PUSH5 0x736F6C6343 STOP MOD EXP STOP CALLER ",
+      "sourceMap": "625:3404:17:-:0;;;;;;;;"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.10+commit.00c0fcaf\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Wrappers around BEP20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeBEP20 for IBEP20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.\",\"methods\":{},\"title\":\"SafeBEP20\"},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/token/BEP20/SafeBEP20.sol\":\"SafeBEP20\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/math/SafeMath.sol\":{\"keccak256\":\"0x9ed09430799b39e964ba0a2c16d93e6ef107338413cdbdbc2837ee7440706447\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5e941b0d3fdbd6e8c803ff762c6ff4aef6a0c3cb4023ffd939c6f7fec138f2d0\",\"dweb:/ipfs/QmXsbw7m5SrbYvYkP8wRRu1zcVGJbj7m6xwnWg2XbugLLA\"]},\"contracts/token/BEP20/IBEP20.sol\":{\"keccak256\":\"0x06827c4a144efe4b7f4eebe7cc9b3cec72ab103f0b3bc8ed2b17b7eacb8b8305\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://2d0a9616491ec4dd28a23491a156731d9c719edc3d78022e534c7ecd9bf51b6e\",\"dweb:/ipfs/QmTimAYxJtMyQkYWM41V85YvSuGXNiNiQCnqauN5gRxG9W\"]},\"contracts/token/BEP20/SafeBEP20.sol\":{\"keccak256\":\"0xa4d4bb7344f9fc4f49ddc63833d9cd7bd1b14658d0380a638071e7d0b1e3afc6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://19e0d95a39e78876a31a0b04dec723d191fb6d0b10fe866228dd48a7257ee6a9\",\"dweb:/ipfs/QmUuUHeycKbJvx1EKLaTzoTM43o7x5CC76PGtHoPFRDbdT\"]},\"contracts/utils/Address.sol\":{\"keccak256\":\"0x7ffea9d334117285ef78893e33b26d97c82404c3d804e692bb517da2624b2480\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6c1e8d4f0f7a6ba11315ba3728eb4bb996ac47f2c9863ad4f0f7df5bed771a5f\",\"dweb:/ipfs/QmXdhUzombSb7e8EMj5pWYQNKYqhnQGa33THJ9PyctkjM7\"]}},\"version\":1}",
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122030004cba3d2c3d13ee04f2ab4bf00335d59fdb18fdcf27200f1722f360f3b0b864736f6c634300060a0033"
+}
